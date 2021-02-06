@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org"
+baseURL = "https://hipotecario2021.github.io/servicios/"
 title = "Educenter | hugo education template"
 theme = "educenter-hugo"
 # post pagination
