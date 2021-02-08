@@ -9,7 +9,8 @@ summaryLength = "10"
 # disqus short name
 disqusShortname = "educenter" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = ["fr"] # desable language from here
+disableLanguages = ["fr", "en"] # desable language from here
+defaultContentLanguage = "es"
 
 
 ############################# Plugins ##############################
@@ -48,7 +49,7 @@ logo = "images/logo.png"
 description = "Esta es la meta descripción"
 author = "Autor"
 # contact info
-address = "dirección: CDMX"
+address = "CDMX"
 mobile = "+525561494728"
 email = "jvera@exemple.net"
 # contact form action
@@ -108,6 +109,96 @@ link = "#"
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "#"
+
+
+################################### Spanish language #####################################
+[Languages.es]
+languageName = "Es"
+languageCode = "es"
+contentDir = "content/spanish"
+weight = 1
+home = "Inicio"
+# copyright
+copyright = "Copyright &copy; 2021"
+
+
+
+################### Spanish navigation ####################
+
+# main menu
+[[Languages.es.menu.main]]
+name = "Acerca de"
+url = "about"
+weight = 1
+
+[[Languages.es.menu.main]]
+name = "cursos"
+url = "course"
+weight = 2
+
+[[Languages.es.menu.main]]
+weight = 3
+name = "Paginas"
+hasChildren = true
+
+  [[Languages.es.menu.main]]
+  parent = "Paginas"
+  name = "maestos"
+  url = "teacher"
+
+  [[Languages.es.menu.main]]
+  parent = "Paginas"
+  name = "noticias"
+  url = "notice"
+
+  [[Languages.es.menu.main]]
+  parent = "Paginas"
+  name = "eventos"
+  url = "event"
+
+  [[Languages.es.menu.main]]
+  parent = "Paginas"
+  name = "becas"
+  url = "scholarship"
+
+  [[Languages.es.menu.main]]
+  parent = "Paginas"
+  name = "investigación"
+  url = "research"
+  
+[[Languages.es.menu.main]]
+name = "blog"
+url = "blog"
+weight = 4
+  
+[[Languages.es.menu.main]]
+name = "Contacto"
+url = "contact"
+weight = 5
+
+
+# footer menu
+
+[[Languages.es.menu.footer]]
+name = "Maestos"
+url = "teacher"
+
+[[Languages.es.menu.footer]]
+name = "Notocias"
+url = "notice"
+
+[[Languages.es.menu.footer]]
+name = "Eventos"
+url = "event"
+
+[[Languages.es.menu.footer]]
+name = "Becas"
+url = "scholarship"
+
+[[Languages.es.menu.footer]]
+name = "investigación"
+url = "research"
+
 
 
 ################################### English language #####################################
