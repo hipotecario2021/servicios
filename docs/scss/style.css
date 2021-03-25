@@ -150,7 +150,30 @@ html, body {
   height: auto !important;
   /* real browsers */
   min-height: 100%;
-  /* real browsers */ }
+  /* real browsers */
+  max-height: 100%; }
+
+.float {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 65%;
+  right: 5%;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 65px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 18px; }
 
 ::selection {
   background: #ffcd6e;
