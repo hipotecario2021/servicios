@@ -141,6 +141,17 @@ body {
   background-color: #fff;
   overflow-x: hidden; }
 
+html, body {
+  height: 100%; }
+
+.landing {
+  position: relative;
+  /* needed for footer positioning*/
+  height: auto !important;
+  /* real browsers */
+  min-height: 100%;
+  /* real browsers */ }
+
 ::selection {
   background: #ffcd6e;
   color: #fff; }
