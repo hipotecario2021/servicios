@@ -4,8 +4,8 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "Titulo 1"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Servicio a ofrecer"
+      content : "Descripción del servicio a ofrecer"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -15,8 +15,8 @@ slider:
         link : "contact"
 
     # slider item loop
-    - title : "Titulo 2"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "Contacta con nosotros"
+      content : "Contacta con nosotros, para facilitar te dejamos un link a Whatsapp"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
